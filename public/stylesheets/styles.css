@@ -5,3 +5,57 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-img-top {
+    height: 20rem !important;
+
+    object-fit: contain;
+}
+
+.card-group {
+    width: 800rem !important;
+
+
+}
+
+body {
+    width: 100%;
+}
+
+.img-small {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.card {
+    width: 18rem;
+}
+
+.cajaGrande {
+    margin-top: 10%;
+}
+
+.btn-primary {
+    margin: 3px;
+}
+
+.navbar {
+    width: 800%;
+}

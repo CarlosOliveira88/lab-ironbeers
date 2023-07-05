@@ -1,3 +1,23 @@
-<div>
+<nav class="navbar bg-primary" data-bs-theme="dark">
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/beers">Beers</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/random-beer">Random Beer</a>
+        </li>
 
+    </ul>
+</nav>
+
+<div class="cajaGrande">
+    <img src="/images/beer.png" class="img-small" alt="beer">
+    <div class="button-container">
+        <button type="button" class="btn btn-primary" onclick="window.location.href='/beers'">Check the Beers!</button>
+        <button type="button" class="btn btn-primary" onclick="window.location.href='/random-beer'">Check a Random
+            Beer</button>
+    </div>
 </div>
